@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ананасовый улун — Teaboom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article class="product-card">
+        <div class="product-card__media">
+            <img
+                src="https://media.teaboom.ru/images/e4bb1618-fb80-41e2-8758-86f884ce095d.jpg"
+                alt="Ананасовый улун"
+                class="product-card__image"
+            >
+        </div>
+
+        <div class="product-card__info">
+            <h1 class="product-card__title">Ананасовый улун</h1>
+            <p class="product-card__category"><a href="#">Улун</a></p>
+
+            <fieldset class="product-card__pack">
+                <legend>Выберите фасовку:</legend>
+
+                <div>
+                    <input class="product-card__radio" type="radio" id="fas-100" name="fas" value="100" checked>
+                    <label for="fas-100">100 г</label>
+                </div>
+
+                <div>
+                    <input class="product-card__radio" type="radio" id="fas-500" name="fas" value="500">
+                    <label for="fas-500">500 г</label>
+                </div>
+
+                <div>
+                    <input class="product-card__radio" type="radio" id="fas-1000" name="fas" value="1000">
+                    <label for="fas-1000">1000 г</label>
+                </div>
+
+                <div>
+                    <input class="product-card__radio" type="radio" id="fas-5000" name="fas" value="5000">
+                    <label for="fas-5000">5000 г</label>
+                </div>
+            </fieldset>
+
+            <p class="product-card__article" data-tag="article">арт. <span class="product-card__value"></span></p>
+
+            <div class="product-card__prices">
+                <p class="product-card__price-old" data-tag="old-price"><span class="product-card__value"></span> ₽</p>
+                <p class="product-card__price-current" data-tag="price"><span class="product-card__value"></span> ₽</p>
+            </div>
+
+            <button class="product-card__button" type="button">В корзину</button>
+
+            <p class="product-card__description">Мягкий улун с тропическим ароматом ананаса и лёгкой сладостью. Хорош как в горячем заваривании, так и холодным.</p>
+        </div>
+    </article>
+
+    <script src="index.js"></script>
+</body>
+</html>
